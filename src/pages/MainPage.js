@@ -5,6 +5,8 @@ import PeopleBtn from "../components/PeopleBtn";
 import PlanetsBtn from "../components/PlanetsBtn";
 import StarshipsBtn from "../components/StarshipsBtn";
 import Header from "../components/Header";
+import SearchBtn from "../components/SearchBtn";
+import Footer from "../components/Footer";
 
 function MainPage() {
   return (
@@ -14,6 +16,8 @@ function MainPage() {
         <PeopleBtn />
         <StarshipsBtn />
         <PlanetsBtn />
+        <SearchBtn />
+        <Footer />
       </Container>
     </div>
   );

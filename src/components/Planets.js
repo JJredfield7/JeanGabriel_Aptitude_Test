@@ -20,8 +20,8 @@ function Planets({ data }) {
                     <p>{planets.climate}</p>
                     <strong>Gravity</strong>
                     <p>{planets.gravity}</p>
-                    <strong>Residents</strong>
-                    <p>{planets.residents}</p>
+                    <strong>Orbital Period</strong>
+                    <p>{planets.orbital_period}</p>
                   </Card.Description>
                 </Card.Content>
               </Card>

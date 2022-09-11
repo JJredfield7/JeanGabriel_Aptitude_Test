@@ -3,10 +3,9 @@ import { Card, Grid } from "semantic-ui-react";
 import "semantic-ui-css/semantic.min.css";
 import "./../App.css";
 
-function People({ data }) {
+function Search({ data }) {
   return (
     <>
-      <h1>People</h1>
       <br></br>
       <Grid columns={3}>
         {data.map((people, i) => {
@@ -20,8 +19,8 @@ function People({ data }) {
                     <p>{people.eye_color}</p>
                     <strong>Height</strong>
                     <p>{people.height}</p>
-                    <strong>Hair Color</strong>
-                    <p>{people.hair_color}</p>
+                    <strong>Species</strong>
+                    <p>{people.species}</p>
                   </Card.Description>
                 </Card.Content>
               </Card>
@@ -33,4 +32,4 @@ function People({ data }) {
   );
 }
 
-export default People;
+export default Search;
